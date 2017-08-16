@@ -4,17 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.stonecj</groupId>
-	<artifactId>spring-cloud-demo</artifactId>
+	<artifactId>spring-cloud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>spring-cloud-demo</name>
+	<name>spring-cloud</name>
 	<description>Demo project for Spring Boot</description>
-
-	<modules>
-		<module>spring-boot</module>
-        <module>spring-cloud</module>
-    </modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

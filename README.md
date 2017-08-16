@@ -3,7 +3,7 @@
 
 ## spring-boot
 1. simple web controller test
-2. propertyConfiguration with yaml
+2. @ConfigurationProperties with yaml. **fields must have get and set method.**
 
 
 ## spring-cloud
