@@ -24,4 +24,4 @@ eg：http://localhost:8080/health
 参考[spring官方文档][spring-actuator文档]可解决跨域、访问控制、节点开关、自定义监控点等问题
 
 ---
-1. [spring-actuator文档]: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready-endpoints  "万能的文档"
+[spring-actuator文档]: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready-endpoints  "万能的文档"
