@@ -14,6 +14,7 @@
 	<modules>
 		<module>registry-center</module>
 		<module>eureka-app</module>
+		<module>eureka-gateway</module>
 	</modules>
 
 	<parent>
