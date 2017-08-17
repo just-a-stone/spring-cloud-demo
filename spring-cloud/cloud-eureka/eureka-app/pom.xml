@@ -4,17 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.stonecj</groupId>
-	<artifactId>spring-cloud</artifactId>
+	<artifactId>eureka-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>jar</packaging>
 
-	<name>spring-cloud</name>
+	<name>eureka-app</name>
 	<description>Demo project for Spring Boot</description>
-
-	<modules>
-		<module>cloud-actuator</module>
-		<module>cloud-eureka</module>
-	</modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -27,9 +22,14 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<spring-cloud.version>Dalston.SR2</spring-cloud.version>
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-eureka</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -41,6 +41,18 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 	<build>
 		<plugins>

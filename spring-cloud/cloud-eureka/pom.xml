@@ -4,16 +4,16 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.stonecj</groupId>
-	<artifactId>spring-cloud</artifactId>
+	<artifactId>cloud-eureka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>jar</packaging>
 
-	<name>spring-cloud</name>
+	<name>cloud-eureka</name>
 	<description>Demo project for Spring Boot</description>
 
 	<modules>
-		<module>cloud-actuator</module>
-		<module>cloud-eureka</module>
+		<module>registry-center</module>
+		<module>eureka-app</module>
 	</modules>
 
 	<parent>
